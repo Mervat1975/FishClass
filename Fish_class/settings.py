@@ -23,11 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'cz(%*$q+*md_4ryg*#^_97m(8-p%)@)#pqm%iye*v@^+(hsl#4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://fish-class.herokuapp.com/',
+ALLOWED_HOSTS = ['127.0.0.1',
                  'fish-class.herokuapp.com',
-                 '127.0.0.1:8000']
+                 ]
 
 
 # Application definition
